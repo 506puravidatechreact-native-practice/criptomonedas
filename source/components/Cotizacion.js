@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
 const Cotizacion = ({resultado}) => {
@@ -34,16 +34,16 @@ const Cotizacion = ({resultado}) => {
 const styles = StyleSheet.create({
   resultado: {
     backgroundColor: '#5E49E2',
-    padding: 20,
+    padding: 15,
   },
   texto: {
     color: '#FFF',
     fontFamily: 'Lato-Regular',
-    fontSize: 18,
-    marginBottom: 10,
+    fontSize: 16,
+    marginBottom: 5,
   },
   precio: {
-    fontSize: 38,
+    fontSize: 28,
   },
   span: {
     fontFamily: 'Lato-Black',
